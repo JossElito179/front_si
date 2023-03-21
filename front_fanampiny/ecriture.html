@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="ecriture.css">
     <script src="Parsley.js-2.9.2/Parsley.js-2.9.2/src/parsley.js"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">Dimpex</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="#services">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Comptes</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">JOURNAL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <p>Paragraph</p>
+            <div></div>
+            <header></header>
+        </div>
+    </nav>
     <section class="article-list">
         <div class="container">
             <div class="intro">
@@ -21,47 +38,58 @@
     <form action="" method="post">
             <div class="row articles">
                 <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="#"></a><input type="date" name="date_valide" placeholder="Date">
-                    <p></p>
-                    <p></p>
-                    <div class="dropdown"><select class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">N°Compte
+                    <p>N° Auxilliaire</p>
+                    <div class="dropdown"><select class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Devise
                         <div class="dropdown-menu">
-                            <option class="dropdown-item" href="#">First Item</option>
-                            <option class="dropdown-item" href="#">Second Item</option>
-                            <option class="dropdown-item" href="#">Third Item</option>
+                            <option class="dropdown-item" >First Item</option>
+                            <option class="dropdown-item" >Second Item</option>
+                            <option class="dropdown-item" >Third Item</option>
                         </div>
                     </select>
                     </div>
-                    <p></p>
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Type de pièce&nbsp;</button>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a><a class="dropdown-item" href="#">Menu Item</a><span class="dropdown-item-text">Text Item</span>
-                            <h6 class="dropdown-header">Header</h6>
+                    <p>N°compte Général</p>
+                    <div class="dropdown"><select class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">N°Compte
+                        <div class="dropdown-menu">
+                            <option class="dropdown-item" >First Item</option>
+                            <option class="dropdown-item" >Second Item</option>
+                            <option class="dropdown-item" >Third Item</option>
                         </div>
+                    </select>
                     </div>
-                    <div></div>
                     <p></p><input type="text" name="montant" placeholder="Montant">
                     <p></p>
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Débit</label></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-5 item"><a href="#"></a><input type="number" name="numero" placeholder="Numéro de pièce">
-                    <p></p>
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">N°Auxilière</button>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    <p>Devise</p>
+                    <div class="dropdown"><select class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">N°Compte
+                        <div class="dropdown-menu">
+                            <option class="dropdown-item" >First Item</option>
+                            <option class="dropdown-item" >Second Item</option>
+                            <option class="dropdown-item" >Third Item</option>
+                        </div>
+                    </select>
                     </div>
-                    <p></p><input type="text" name="libelle" placeholder="lIbelle">
+                    <p></p><input type="text" name="libelle" placeholder="Libelle">
                     <div></div>
                     <div></div>
-                    <p></p>
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Devise&nbsp;</button>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    <p>Type de pièce</p>
+                    <div class="dropdown"><select class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">N°Compte
+                        <div class="dropdown-menu">
+                            <option class="dropdown-item" >First Item</option>
+                            <option class="dropdown-item" >Second Item</option>
+                            <option class="dropdown-item" >Third Item</option>
+                        </div>
+                    </select>
                     </div>
                     <p></p>
                     <p></p>
                     <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-1">Crédit</label></div>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-4 item">
-                    <p></p>
+                    <!-- <p></p>
                     <div></div>
-                    <p></p>
+                    <p></p> -->
                     <div class="input-group"></div><button class="btn btn-primary" type="button">Validation</button>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-1">
                         <div class="offcanvas-header">
